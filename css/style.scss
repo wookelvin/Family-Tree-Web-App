@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+$color1: RGBA(52, 150, 171, 1);
+$color2: RGBA(170, 174, 207, 1);
+$color3: RGBA(191, 217, 230, 1);
+$color4: RGBA(200, 222, 83, 1);
+$color5: RGBA(151, 213, 191, 1);
+
+
+$color1: #eee;
+$color2: #ddd;
+$color3: #aaa;
+$color4: #999;
+$color5: #efefef;
+
+body{
+  font-family:"Open Sans";
+  font-weight:300;
+  margin:0;
+  
+}
+
+h1,h2,h3,h4,h5,h6{ 
+  font-family: "Open Sans"; 
+  font-weight:600; 
+  text-transform: uppercase;
+}
+
+img {
+  height:150px; 
+  margin:0.5em;
+  padding:0.3em;
+  background-color:white;
+}
+
+.name{
+  font-size:0.8em;
+  text-transform: uppercase;
+  font-weight:600;
+  letter-spacing: 2px;
+  
+}
+.location{
+  font-size:0.7em;
+  text-transform: uppercase;
+  
+}
+.dob{
+  font-size:1.1em; 
+}
+.person{
+  text-align: center; 
+  background-color:$color3;
+  //display:inline-block;
+  padding:1em;
+  border-radius:1em;
+  margin:0.5em;
+  border:5px solid $color1;
+  width:12em !important;
+  //min-width:12em;
+  color:white;
+}
+.container{
+  display:flex;
+  flex-direction: row;
+  //flex-wrap: wrap;
+  justify-content:flex-start;
+  //overflow:scroll;
+  width:360em;
+}
+
+.separated,.couple{
+  background-color:$color5;
+  margin: 0.5em;
+  
+  border-radius: 0.5em;
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  border:2px solid #aaa;
+  margin-bottom:5em;
+}
+
+.couple:after{
+  content:'';
+  background-image: url(../img/heart.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 3em 3em;
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:10;
+  
+  
+}
+
+.family{
+  display:flex;
+  flex-direction: column;
+  // align-content: center;
+  //justify-content: center;
+  //background-color:green;
+  
+}
+.kids{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:flex-start;
+}
+.parents{
+  display:flex;
+  justify-content: center;
+}
+
+.jsplumb-endpoint svg {
+   //width:0.5em;
+  //height:0.5em;
+  //r: 0.2em;
+}

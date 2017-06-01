@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="136px" height="117px" viewBox="0 0 136 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 1 + Oval 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Family-Trees" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="256" sketch:type="MSArtboardGroup" transform="translate(-60.000000, -77.000000)">
+            <g id="Oval-1-+-Oval-1" sketch:type="MSLayerGroup" transform="translate(46.000000, 63.000000)">
+                <path d="M99.8246545,39 C98.0705736,21.5900102 83.3723453,8 65.5,8 C47.6276547,8 32.9294264,21.5900102 31.1753455,39 L31,39 L31,123 L100,123 L100,39 L99.8246545,39 Z" id="Oval-1" fill="#D06363" sketch:type="MSShapeGroup" transform="translate(65.500000, 65.500000) rotate(-45.000000) translate(-65.500000, -65.500000) "></path>
+                <path d="M133.378478,38.5538239 C131.624397,21.143834 116.926169,7.55382387 99.0538239,7.55382387 C81.1814786,7.55382387 66.4832503,21.143834 64.7291694,38.5538239 L64.5538239,38.5538239 L64.5538239,122.553824 L133.553824,122.553824 L133.553824,38.5538239 L133.378478,38.5538239 Z" id="Oval-1" fill="#FF6A6A" sketch:type="MSShapeGroup" transform="translate(99.053824, 65.053824) scale(-1, 1) rotate(-45.000000) translate(-99.053824, -65.053824) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
